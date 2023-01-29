@@ -16,7 +16,7 @@ export const RecentProjectData = [
   {
     title: 'neuron',
     detail:
-      'an data synchronization Java Quarkus project using with Kafka and Debezium.',
+      'An data synchronization Java Quarkus project using with Kafka and Debezium.',
     image: process.env.PUBLIC_URL + '/images/neuron.png',
     buttons: [ { label: 'Code', link: 'https://github.com/Shakl0ne/neuron' }],
   },

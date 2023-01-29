@@ -24,11 +24,11 @@ const ContactForm: React.FC<FormProp> = ({onclose}) => {
 			<div className="form__inner">
 				<HighlightOffIcon className="form__close" onClick={closeModal} />{" "}
 				<ReactTypeformEmbed
-					url="https://bikashsharma.typeform.com/to/XCm2PQqB"
+					url="https://awdis5i9vlm.typeform.com/to/OecMPXuj"
 					popup={false}
 					style={styleDefault}
 				/>{" "}
-				<h3 className="form__loader">loading..</h3>
+				<h3 className="form__loader">Hold tight! just getting this page ready...</h3>
 			</div>
 		</div>
 	)

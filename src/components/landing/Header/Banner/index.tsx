@@ -1,7 +1,6 @@
 import React from "react"
 
-import HeroImage from "../../../../assets/images/hero-image.png"
-import HeaderBg from "../../../../assets/images/header__bg.png"
+import profile_image from "../../../../assets/images/profile_image.png"
 import Button from "../../../common/Button"
 
 import "./style.scss"
@@ -28,18 +27,12 @@ export const Banner = () => {
 					</h5>
 					<a href="#recent-projects">
 						<Button label="View projects" variant="outline" />
-						{/*<Icon />*/}
 					</a>
 				</div>
 				<div className="banner__image">
-					{/*<img src={} alt="Bikash Sharma smiling" />*/}
+					<img src={profile_image} alt={'my profile pic'}/>
 				</div>
 			</div>
-{/*			<img
-				src={HeaderBg}
-				alt="code abstract background"
-				className="banner__bg"
-			/>*/}
 		</div>
 	)
 }

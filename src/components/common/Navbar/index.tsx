@@ -1,6 +1,5 @@
 import React, {useRef, useState} from "react"
 
-import Logo from "assets/brands/logo"
 import MenuIcon from "@material-ui/icons/Menu"
 import Button from "components/common/Button"
 import CloseIcon from "@material-ui/icons/Close"
@@ -74,7 +73,7 @@ const Navbar = () => {
 								<a
 									href={
 										process.env.PUBLIC_URL +
-										"/images/LinghaoZhang 2022.pdf"
+										"/images/LinghaoZhang.pdf"
 									}
 									rel="noopener noreferrer"
 									target="_blank">

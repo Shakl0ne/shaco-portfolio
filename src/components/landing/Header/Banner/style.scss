@@ -33,8 +33,19 @@
 	&__image {
 		max-width: 450px;
 		img {
-			width: 100%;
-			height: auto;
+			width: 90%;
+			height: 90%;
+			animation: 1s ease-in-out 0s 1 FadeInFromLeft;
+		}
+		@keyframes FadeInFromLeft {
+			0% {
+				opacity:0;
+				transform: translateX(-25%);
+			}
+			100% {
+				opacity:1;
+				transform: translateX(0%);
+			}
 		}
 	}
 	&__content {

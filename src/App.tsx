@@ -4,7 +4,7 @@ import { ThemeProvider } from '@material-ui/styles'
 
 import Routes from 'Routes'
 
-import './app.scss'
+import './App.scss'
 
 function App() {
 	const theme = createTheme({

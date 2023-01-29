@@ -9,10 +9,10 @@ type SkillPropType = {
 }
 
 const Skill: React.FC<SkillPropType> = ({
-	name,
-	detail,
-	icon,
-}) => {
+											name,
+											detail,
+											icon,
+										}) => {
 	const Icon = icon
 	return (
 		<div className='skill-item'>

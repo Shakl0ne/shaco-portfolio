@@ -13,8 +13,7 @@ function RecentProjects() {
 					<h3>Recent projects</h3>
 				</div>
 				<p>
-					These are my personal side projects. For knowing more about projects I
-					did at work, please do not hesitate to contact me.
+					These are my personal side projects. Some of them don't have a front-end UI, if you wanna get to know them more in depth, please do not hesitate to contact me.
 				</p>
 				<div className="recent-projects__cards">
 					{RecentProjectData.map(
@@ -26,7 +25,7 @@ function RecentProjects() {
 											rel="noopener noreferrer"
 											href={button.link}
 											target="_blank">
-											<Button variant="normal" label={button.label} />{" "}
+											<Button variant="normal" label={button.label}/>{" "}
 										</a>
 									))}
 								</Card>

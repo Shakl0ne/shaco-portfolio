@@ -20,7 +20,7 @@ export const Banner = () => {
 						me invest all my skills and experience into
 						<span className="text-highlight"> succeeding them</span>. From my internship experience
 						as a <span className="text-highlight"> backend developer</span>,
-						I've worked on a open-source data synchronization project using Java Quarkus framework and Kafka.
+						I've worked on an open-source data synchronization project using Java Quarkus framework and Kafka.
 						I also have experience in web application development using react, typescript and django.
 						I am currently working on a microservices project using Java Spring, docker, Kafka, and k8s.
 						You can find my project links below &#128071;

@@ -1,0 +1,85 @@
+@import './reset';
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+
+// functions
+@function weight($weight-name) {
+	@return map-get($font-weights, $weight-name);
+}
+
+// All variables
+
+$primary: #ff5722;
+$primary-hover: #62db79;
+$black: #222831;
+$gray: #a2a6b9;
+$text-dark: #393e46;
+$bg-dark: #d2dfda;
+$gray-light: #b5bac6;
+$bg: #e5e5e5;
+$card-bg: #272f43;
+$blue-light: #e3f6f5;
+$blue: #8dc6ff;
+
+$tag-no: #c87576;
+$tag-ok: #c4fad0;
+
+$font-family: 'Jost', sans-serif;
+
+$max-width: 1200px;
+
+$font-weights: (
+	'regular': 400,
+	'medium': 600,
+	'bold': 700,
+);
+$landing-width: 1040px;
+:root {
+	font-size: 8px;
+	font-weight: weight(regular);
+}
+
+// common
+h1 {
+	font-family: $font-family;
+	font-size: 6rem;
+	line-height: 142%;
+	font-weight: weight(bold);
+	color: $primary;
+}
+h2 {
+	font-family: $font-family;
+	font-size: 5rem;
+	line-height: 142%;
+	font-weight: weight(bold);
+}
+h3 {
+	font-family: $font-family;
+	font-size: 3rem;
+	line-height: 35px;
+	font-weight: weight(bold);
+}
+h4 {
+	font-family: $font-family;
+	font-size: 3rem;
+	font-style: normal;
+	line-height: 35px;
+	font-weight: weight(medium);
+}
+
+h5 {
+	font-family: $font-family;
+	font-size: 2.25rem;
+	font-style: normal;
+	line-height: 180%;
+	font-weight: weight(medium);
+	color: $black;
+}
+
+p {
+	font-family: $font-family;
+	font-size: 2rem;
+	font-style: normal;
+	line-height: 23px;
+	font-weight: weight(regular);
+	color: $text-dark;
+}

@@ -1,11 +1,10 @@
-import React, {MouseEvent, useState} from 'react'
+import React, { useState} from 'react'
 
 import './style.scss'
 import {Icon} from "./Icon";
 import americanFlag from "../../../../../assets/icons/american-flag";
 import israeliFlag from "../../../../../assets/icons/israeli-flag";
 import chineseFlag from "../../../../../assets/icons/chinese-flag";
-import {set} from "react-ga";
 
 type GreetingPropType = {
     text: string

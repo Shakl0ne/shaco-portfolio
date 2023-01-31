@@ -1,0 +1,24 @@
+@import '../../../../../styles/main';
+
+.greeting {
+  white-space: nowrap;
+  h3 {
+    margin-bottom: 10px;
+    display: inline-flex;
+    padding-right: 5px;
+    .highlight {
+      display: inline-flex;
+      text-decoration: none;
+      box-shadow: inset 0 -.35em 0 #f9c695;
+      color: inherit;
+    }
+  }
+  &__icon-container {
+    display: inline-flex;
+    position: relative;
+    top: -5px;
+  }
+
+
+}
+

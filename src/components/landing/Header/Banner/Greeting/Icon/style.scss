@@ -1,0 +1,8 @@
+@import '../../../../../../styles/main';
+
+.icon-wrap {
+  padding: 5px;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

@@ -2,10 +2,10 @@ import React from "react"
 
 export default (props) => (
     <svg
-        id="Layer_1"
+        id="us"
         xmlns="http://www.w3.org/2000/svg"
-        width={50}
-        height={50}
+        width={40}
+        height={40}
         viewBox="0 0 55.2 38.4"
         style={{
             enableBackground: "new 0 0 55.2 38.4",

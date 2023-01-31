@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {MouseEvent} from 'react'
 
 import './style.scss'
 
@@ -8,18 +8,22 @@ type ButtonProps = {
 	onClick?: (
 		event: React.MouseEvent<HTMLButtonElement, MouseEvent>,
 	) => void
+
 }
 
 const Button: React.FC<ButtonProps> = ({
 	label,
 	variant,
 	onClick,
+
 }) => {
 	const handleClick = (e: any) => {
 		if (onClick) {
 			onClick(e)
 		}
 	}
+
+
 	return (
 		<>
 			<button

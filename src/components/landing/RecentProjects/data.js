@@ -4,7 +4,7 @@ export const RecentProjectData = [
     detail:
       'A full-stack ecommerce website using React & Redux and Python Django.',
     image: process.env.PUBLIC_URL + '/images/ecommerce-thumbnail.png',
-    buttons: [{ label: 'Demo', link: 'https://shaco-ecommerce.herokuapp.com/' }, { label: 'Code', link: 'https://github.com/Shakl0ne/Ecommerce' },],
+    buttons: [/*{ label: 'Demo', link: 'https://shaco-ecommerce.herokuapp.com/' },*/ { label: 'Code', link: 'https://github.com/Shakl0ne/Ecommerce' },],
   },
   {
     title: 'whatsapp-clone',

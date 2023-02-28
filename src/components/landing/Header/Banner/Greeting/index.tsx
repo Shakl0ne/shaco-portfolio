@@ -27,7 +27,7 @@ export const Greeting: React.FC<GreetingPropType> = ({text}) => {
         {
             id: 'il',
             callback: israeliFlag,
-            name: 'David Sidgiyayev דוד סידיאייב'
+            name: 'David Sidgiyayev דוד ס׳דגיאייב'
         },
     ]
 
